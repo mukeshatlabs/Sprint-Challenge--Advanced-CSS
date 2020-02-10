@@ -18,10 +18,6 @@
         padding-top: 10px;
     }
 
-    .img-content{
-        border-radius: 5px;
-    }
-
    .textitems{
         width: 60%;
         display: flex;
@@ -32,22 +28,26 @@
         color: @nav-font;
     }
 
-        a:link {
-            color: @nav-font;
-            text-decoration: none;
-        }
-        a:visited {
-            color: @wild-sand;
-            text-decoration: none; 
-        }
-        a:hover {
-            text-decoration: underline;
-            color: @river-bend;
-        }
+    a:link {
+        color: @nav-font;
+        text-decoration: none;
+    }
+    a:visited {
+        color: @wild-sand;
+        text-decoration: none; 
+    }
+    a:hover {
+        text-decoration: underline;
+        color: @river-bend;
+    }
 
     @media @mobile{
             .textitems{
                 font-size: 1.5rem;
             }
         }
+    }
+
+    .img-content {
+        border-radius: 10%;
     }
