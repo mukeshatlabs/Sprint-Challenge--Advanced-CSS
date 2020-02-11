@@ -1,1 +1,23 @@
 // Mixins Here
+.button-style(@bg-color, @button-width){
+    background-color: @bg-color;
+    border: 1px solid @main-border-color;
+    padding: 10px 0px;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+    width: @button-width;
+
+    &:hover {
+        background-color: lighten(@bg-color, 50%);
+        color: @shuttle-gray;
+    }
+}
+
+.img-style{
+    width: 28%;
+    margin: 20px 2.5%;
+    border-radius: 20px;
+    height: 100%;
+}
